@@ -1,0 +1,12 @@
+{
+  "name": "notyoel/sessionsexample",
+  "require": {
+    "sof3/libasynql": "^4.2.2",
+    "pocketmine/pocketmine-mp": "^5.0.0"
+  },
+  "autoload": {
+    "classmap": [
+      "src"
+    ]
+  }
+}

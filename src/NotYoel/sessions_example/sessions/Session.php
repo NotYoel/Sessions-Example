@@ -19,26 +19,32 @@ class Session{
         private string $xuid,
         private string $username,
         private int $money
-    ){
+    )
+    {
     }
 
-    public function getXuid() : string{
+    public function getXuid(): string
+    {
         return $this->xuid;
     }
 
-    public function getUsername() : string{
+    public function getUsername(): string
+    {
         return $this->username;
     }
 
-    public function getMoney() : int{
+    public function getMoney(): int
+    {
         return $this->money;
     }
 
-    public function setMoney(int $money) : void{
+    public function setMoney(int $money): void
+    {
         $this->money = $money;
     }
 
-    public function getPlayer() : ?Player{
+    public function getPlayer(): ?Player
+    {
         return Server::getInstance()->getPlayerExact($this->username);
     }
 }

@@ -5,6 +5,7 @@ namespace NotYoel\sessions_example\sessions;
 use pocketmine\player\Player;
 
 use NotYoel\sessions_example\Main;
+use NotYoel\sessions_example\database\DatabaseManager;
 
 class SessionManager{
 
@@ -22,7 +23,7 @@ class SessionManager{
         $xuid = $player->getXuid();
         $username = $player->getName();
 
-        $db = Main::getInstance()->getDatabaseManager()->getDatabase();
+        $db = Main::getInstance()->getDatabaseManager();
 
         /* Here we get the player's data from the database.
            $result will return either an array containing the
@@ -30,15 +31,11 @@ class SessionManager{
            the database yet, therefore, they've just logged into
            the server for the first time.
         */
-        $stmt = $db->prepare("SELECT * FROM player WHERE xuid=:xuid");
-        $stmt->bindParam(':xuid', $xuid);
+        $stmt = $db->getPlayer($xuid, function ($rows) {
+        });
 
-        $result = $stmt->execute()->fetchArray(SQLITE3_ASSOC);
-        
-        $stmt->close();
-
-        if(is_array($result)){
-            /* $result is an array, so it looks like this:
+        if (is_array($stmt)) {
+            /* $stmt is an array, so it looks like this:
                [
                     "xuid" => Player's XUID,
                     "username" => Player's Username,
@@ -49,7 +46,8 @@ class SessionManager{
             /* We get the player's money by indexing and assign it to a variable so then.
                we can use it when creating the session class down below.
             */
-            $money = $result["money"];
+            $money = $db->getPlayer($xuid, function ($rows) {
+            });
         } else {
             // The player joined for the first time so $money is set to 0.
             $money = 0;
@@ -57,13 +55,10 @@ class SessionManager{
             /* Since they don't have any data in the database, we add it by
                inserting a new row into the database.
              */
-            $stmt = $db->prepare("INSERT OR REPLACE INTO player(xuid, username, money) VALUES(:xuid, :username, :money)");
-            $stmt->bindParam(':xuid', $xuid);
-            $stmt->bindParam(':username', $username);
-            $stmt->bindParam(':money', $money);
+            $db->addPlayer($xuid, $username, $money);
+            var_dump($money);
+            $db->closeDatabase();
 
-            $stmt->execute();
-            $stmt->close();
         }
 
         // We create a new 'Session' class and add it into the global 'sessions' property
@@ -77,20 +72,18 @@ class SessionManager{
            error. (Because normally, PlayerQuitEvent is called, therefore running closeSession() without
            a session being created, therefore attempting to close a non-existent session.)
         */
-        if(($session = $this->getSession($player)) instanceof Session){
+        if(($session = $this->getSession($player)) instanceof Session) {
+            $db = Main::getInstance()->getDatabaseManager();
             // We get the player's data back.
             $xuid = $player->getXuid();
             $username = $player->getName();
             $money = $session->getMoney();
+            $db->loadDatabase();
 
             // We add it back into the database before closing it.
-            $stmt = Main::getInstance()->getDatabaseManager()->getDatabase()->prepare("INSERT OR REPLACE INTO player(xuid, username, money) VALUES(:xuid, :username, :money)");
-            $stmt->bindParam(':xuid', $xuid);
-            $stmt->bindParam(':username', $username);
-            $stmt->bindParam(':money', $money);
-
-            $stmt->execute();
-            $stmt->close();
+            $db->addPlayer($xuid, $username, $money);
+            var_dump($money);
+            $db->closeDatabase();
 
             // We remove the player from the global 'sessions' property because they've left the server.
             unset($this->sessions[$player->getXuid()]);
