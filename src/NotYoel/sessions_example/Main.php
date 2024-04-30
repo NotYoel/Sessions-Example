@@ -36,7 +36,7 @@ class Main extends PluginBase
 
    NOTE: Sessions are used as a way to not directly modify data in the database.
 
- */
+*/
 
     private static self $instance;
 
