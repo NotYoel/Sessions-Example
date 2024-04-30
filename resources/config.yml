@@ -1,0 +1,12 @@
+database:
+  # The database type. ONLY sqlite is SUPPORTED
+  type: sqlite
+
+  sqlite:
+    # The file name of the database.
+    # You can also put an absolute path here.
+    file: db.sqlite
+
+  # The maximum number of simultaneous SQL queries
+  # Recommended: 1 for sqlit.
+  worker-limit: 1
