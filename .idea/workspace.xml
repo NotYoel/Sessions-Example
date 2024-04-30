@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bf6ecba9-c886-47ec-b14e-a3628e6ccd2a" name="Default Changelist" comment="Added back comment">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/database/DatabaseManager.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/NotYoel/sessions_example/database/DatabaseManager.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/Await.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/AwaitChild.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/AwaitException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/Channel.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/EmptyChannelState.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/GeneratorUtil.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/InterruptException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/Loading.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/Mutex.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/PromiseState.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/PubSub.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/RaceLostException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/ReceivingChannelState.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/SendingChannelState.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/Traverser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/SOFe/AwaitGenerator/UnawaitedCallbackException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/ConfigException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/DataConnector.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/ExtensionMissingException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/GenericStatement.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/SqlDialect.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/SqlError.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/SqlResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/SqlThread.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/base/DataConnectorImpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/base/QueryRecvQueue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/base/QuerySendQueue.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/base/QueueShutdownException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/base/SqlSlaveThread.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/base/SqlThreadPool.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/generic/GenericStatementFileParseException.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/generic/GenericStatementFileParser.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/generic/GenericStatementImpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/generic/GenericVariable.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/generic/MysqlStatementImpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/generic/SqliteStatementImpl.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/libasynql.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/mysqli/MysqlColumnInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/mysqli/MysqlCredentials.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/mysqli/MysqlFlags.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/mysqli/MysqlSslCredentials.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/mysqli/MysqlTypes.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/mysqli/MysqliThread.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/result/SqlChangeResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/result/SqlColumnInfo.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/result/SqlInsertResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/result/SqlSelectResult.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NotYoel/sessions_example/libs/_9d59f7f38d353f3a/poggit/libasynql/sqlite3/Sqlite3Thread.php" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--follow-tags" />
+        <option name="title" value="Current Branch" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2fpA5AhWN4lNpvvItZmvsrP76bg" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Economy" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf6ecba9-c886-47ec-b14e-a3628e6ccd2a" name="Default Changelist" comment="" />
+      <created>1714487463058</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1714487463058</updated>
+      <workItem from="1714487469210" duration="1603000" />
+      <workItem from="1714495238368" duration="1825000" />
+    </task>
+    <task id="LOCAL-00001" summary="config">
+      <created>1714487638843</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714487638843</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Added libasynql support">
+      <created>1714487802733</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714487802733</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Fix">
+      <created>1714488345368</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714488345368</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added back comment">
+      <created>1714488771474</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714488771474</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Added back comment">
+      <created>1714488875443</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714488875443</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Added back comment">
+      <created>1714488977882</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714488977882</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
+    <confirmRemoveEmptyChangelist value="1" />
+    <MESSAGE value="config" />
+    <MESSAGE value="Added libasynql support" />
+    <MESSAGE value="Fix" />
+    <MESSAGE value="Added back comment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added back comment" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+</project>

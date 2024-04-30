@@ -5,8 +5,8 @@ declare(strict_types=1);
 namespace NotYoel\sessions_example\database;
 
 use Closure;
-use NotYoel\sessions_example\libs\_9d59f7f38d353f3a\poggit\libasynql\libasynql;
-use NotYoel\sessions_example\libs\_9d59f7f38d353f3a\poggit\libasynql\SqlError;
+use poggit\libasynql\libasynql;
+use poggit\libasynql\SqlError;
 
 class DatabaseManager
 {
