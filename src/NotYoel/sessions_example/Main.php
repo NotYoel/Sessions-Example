@@ -51,7 +51,8 @@ class Main extends PluginBase{
         */
         self::$instance = $this;
 
-        $this->databaseManager = new DatabaseManager();
+        $this->databaseManager = new DatabaseManager($this);
+        $this->databaseManager->loadDatabase();
 
         $this->sessionManager = new SessionManager();
         $this->getServer()->getPluginManager()->registerEvents(new SessionListener(), $this);
