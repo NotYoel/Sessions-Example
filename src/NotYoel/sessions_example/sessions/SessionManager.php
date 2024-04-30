@@ -47,7 +47,6 @@ class SessionManager{
                we can use it when creating the session class down below.
             */
             $money = $db->getPlayer($xuid, function ($rows) {
-                $rows[0]["money"];
             });
         } else {
             // The player joined for the first time so $money is set to 0.
